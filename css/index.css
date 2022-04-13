@@ -1,0 +1,67 @@
+.background-header{
+    color: rgb(242, 242, 247);
+    
+}
+.top-wrapper{
+    background: rgb(3, 3, 61);
+}
+.wrapper{
+    background: rgb(248, 248, 248);    
+    color: rgb(9, 16, 65);
+}
+.menu-wrapper{
+    padding: 1%;
+    align-items: center;
+}
+.contenedor-icono i{
+    font-size: 20px;
+
+}
+#logo-ci{
+    width: 8%;
+}
+.contenedor-iconotext{
+    font-size: 12px;
+    text-align: right;
+}
+.aling-items-center{
+    align-items: center;
+}
+#bar-nav{
+    background: rgb(248, 248, 248);
+}
+
+.carousel-inner{
+    max-height: 30rem;
+}
+
+#footer-top{
+    background: rgb(3, 3, 61);
+    color: aliceblue;
+}
+#footer-med{
+    background: rgb(191, 191, 196);    
+    color: aliceblue;
+    text-align: center;
+}
+#footer-low{
+    background: rgb(255, 255, 255);    
+}
+
+@media (max-width: 768px) {
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 574px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important ;
+    }
+    .sidebar{
+        display: none;
+    }
+    
+}
